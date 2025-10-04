@@ -35,7 +35,7 @@ function App() {
     <div className="container">
         <div className="status">
           {allModulesVisited && (
-            <p>{daysCount} day</p>
+            <p>{daysCount} days</p>
           )}
 
       <div className="module-list">

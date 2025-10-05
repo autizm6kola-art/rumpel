@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rumpel/static/css/main.a6f549f8.css",
-    "main.js": "/rumpel/static/js/main.d051372a.js",
+    "main.js": "/rumpel/static/js/main.c8c8d3be.js",
     "index.html": "/rumpel/index.html",
     "main.a6f549f8.css.map": "/rumpel/static/css/main.a6f549f8.css.map",
-    "main.d051372a.js.map": "/rumpel/static/js/main.d051372a.js.map"
+    "main.c8c8d3be.js.map": "/rumpel/static/js/main.c8c8d3be.js.map"
   },
   "entrypoints": [
     "static/css/main.a6f549f8.css",
-    "static/js/main.d051372a.js"
+    "static/js/main.c8c8d3be.js"
   ]
 }

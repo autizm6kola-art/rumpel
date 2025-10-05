@@ -55,7 +55,7 @@ function App() {
       </div>
 
       </div>
-      <div>
+      {/* <div>
         <button
           className="reset"
           onClick={() => {
@@ -67,7 +67,7 @@ function App() {
         >
           Сбросить статистику
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

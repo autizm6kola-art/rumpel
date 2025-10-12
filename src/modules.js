@@ -15,10 +15,11 @@ export const modules = [
   { id: 2, name: "Урфин", url: "https://autizm6kola-art.github.io/urfinTRI/" },
   { id: 3, name: "Гудвин", url: "https://autizm6kola-art.github.io/gudvin/" },
   { id: 4, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
-  { id: 5, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
-  { id: 6, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },
-  { id: 7, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
-  { id: 8, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina/" },
+  { id: 5, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
+  { id: 6, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
+  { id: 7, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },
+  { id: 8, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
+  { id: 9, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina/" },
   
   
 ];

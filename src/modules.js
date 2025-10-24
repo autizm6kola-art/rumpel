@@ -11,9 +11,9 @@
 // ];
 
 export const modules = [
-  { id: 1, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
+  { id: 1, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
   { id: 2, name: "Гудвин", url: "https://autizm6kola-art.github.io/gudvin/" },
-  { id: 3, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
+  { id: 3, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
   { id: 4, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
   { id: 5, name: "Урфин", url: "https://autizm6kola-art.github.io/urfinTRI/" },
   { id: 6, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },

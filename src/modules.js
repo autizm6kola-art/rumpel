@@ -19,7 +19,7 @@ export const modules = [
   { id: 6, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
   { id: 7, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },
   { id: 8, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
-  { id: 9, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina/" },
+  { id: 9, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
   
   
 ];

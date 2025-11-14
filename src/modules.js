@@ -12,14 +12,14 @@
 
 export const modules = [
   { id: 1, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
-  { id: 2, name: "Гудвин", url: "https://autizm6kola-art.github.io/gudvin/" },
-  { id: 3, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
-  { id: 4, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
-  { id: 5, name: "Урфин", url: "https://autizm6kola-art.github.io/urfinTRI/" },
-  { id: 6, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
-  { id: 7, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },
-  { id: 8, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
-  { id: 9, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
+  { id: 2, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
+  { id: 3, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
+  { id: 4, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
+  { id: 5, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },
+  { id: 6, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
+  { id: 7, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
   
+  // { id: 5, name: "Урфин", url: "https://autizm6kola-art.github.io/urfinTRI/" },
+  // { id: 2, name: "Гудвин", url: "https://autizm6kola-art.github.io/gudvin/" },
   
 ];

@@ -14,6 +14,7 @@ export const modules = [
   { id: 1, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
   { id: 2, name: "Почему?", url: "https://autizm6kola-art.github.io/istorii_pochemu/" },
   { id: 3, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
+  { id: 10, name: "Имя", url: "https://autizm6kola-art.github.io/istorii_imya/" },
   { id: 4, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
   { id: 5, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
   { id: 6, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },

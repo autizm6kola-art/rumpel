@@ -33,6 +33,9 @@ function App() {
 
   return (
     <div className="container">
+        <strong>ОАЗИС</strong>
+        <br></br>
+        <br></br>
         <div className="status">
           {allModulesVisited && (
             <p>{daysCount} days</p>

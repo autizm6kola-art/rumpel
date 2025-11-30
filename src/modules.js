@@ -12,7 +12,9 @@ export const modules = [
   { id: 6, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },
   { id: 7, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
   { id: 8, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
-  { id: 9, name: "ГАРРИ", url: "https://autizm6kola-art.github.io/garry_p" },
+  { id: 13, name: "Рисование", url: "https://autizm6kola-art.github.io/risovanie" },
+  { id: 14, name: "Бокс", url: "https://autizm6kola-art.github.io/risovanie" },
+  { id: 9, name: "ГАРРИ", url: "https://autizm6kola-art.github.io/box" },
   
   // { id: 5, name: "Урфин", url: "https://autizm6kola-art.github.io/urfinTRI/" },
   // { id: 2, name: "Гудвин", url: "https://autizm6kola-art.github.io/gudvin/" },

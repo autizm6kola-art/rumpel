@@ -33,7 +33,13 @@ function App() {
 
   return (
     <div className="container">
-        <strong>ОАЗИС</strong>
+        <strong style={{ fontFamily: 'HarryP, sans-serif', fontSize: '48px' }}>
+  OASIS
+</strong>
+
+
+
+
         <br></br>
         <br></br>
         <div className="status">

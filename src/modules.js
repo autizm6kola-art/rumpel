@@ -5,6 +5,8 @@ export const modules = [
   { id: 2, name: "Планка", url: "https://autizm6kola-art.github.io/sport_planka/" },
   { id: 3, name: "Какой?", url: "https://autizm6kola-art.github.io/kakoy/" },
   { id: 4, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
+  { id: 18, name: "Айболит", url: "https://autizm6kola-art.github.io/cht_aybolit" },
+  { id: 17, name: "365", url: "https://autizm6kola-art.github.io/z365" },
   { id: 5, name: "О чём думает?", url: "https://autizm6kola-art.github.io/chto_dumaet/" },
   { id: 6, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
   { id: 7, name: "Почему?", url: "https://autizm6kola-art.github.io/istorii_pochemu/" },

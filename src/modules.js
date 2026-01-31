@@ -16,7 +16,7 @@ export const modules = [
   { id: 3, name: "Айболит", url: "https://autizm6kola-art.github.io/cht_aybolit" },
   { id: 19, name: "Груффало", url: "https://autizm6kola-art.github.io/cht_gruffalo" },
   { id: 11, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
-  { id: 16, name: "Бокс", url: "https://autizm6kola-art.github.io/risovanie" },
+  { id: 16, name: "Бокс", url: "https://autizm6kola-art.github.io/box" },
   { id: 20, name: "Кольца", url: "https://autizm6kola-art.github.io/sport_kolca" },
   { id: 6, name: "Приседание", url: "https://autizm6kola-art.github.io/sport_prised" },
   { id: 10, name: "Планка", url: "https://autizm6kola-art.github.io/sport_planka/" },

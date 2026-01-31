@@ -10,6 +10,8 @@ import {
   getTodayVisitedModules,
   markModuleVisitedToday
 } from "./storage";
+import BackupControls from './BackupControls';
+
 
 function App() {
   const [daysCount, setDaysCount] = useState(0);
@@ -59,11 +61,16 @@ function App() {
             >
               {mod.name}
             </button>
+            
           );
         })}
       </div>
 
+      
+
       </div>
+      <BackupControls />
+
       {/* <div>
         <button
           className="reset"

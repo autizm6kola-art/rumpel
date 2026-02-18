@@ -19,7 +19,7 @@ body {
 
 .module-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
   margin-bottom: 20px;
 }
@@ -30,15 +30,15 @@ body {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: clamp(16px, 2vw, 20px); /* адаптивный шрифт */
   transition: 0.2s;
 }
+
 .module-button:hover {
   background: #d4d4d4;
 }
 
 .status {
-  
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -51,13 +51,53 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+
 .reset:hover {
   background: #eee;
 }
-
 
 .module-button.visited {
   background: #9cfb9cc9;
   color: black;
   font-weight: bold;
+}
+
+/* --------------------------- */
+/* Медиа-запросы для адаптивности */
+
+@media (max-width: 768px) {
+  .module-list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .module-button {
+    font-size: clamp(14px, 3vw, 18px);
+    padding: 8px 8px;
+  }
+
+  .status {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .module-list {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+  }
+
+  .module-button {
+    font-size: clamp(12px, 4vw, 16px);
+    padding: 6px 6px;
+  }
+
+  .status {
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
 }

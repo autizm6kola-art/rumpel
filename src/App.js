@@ -1,4 +1,5 @@
 
+
 import "./styles.css";
 import React, { useState, useEffect } from "react";
 import { modules } from "./modules";
@@ -12,6 +13,19 @@ import {
 } from "./storage";
 import BackupControls from './BackupControls';
 
+// Функция для перестройки массива под колонки (сверху вниз)
+function reorderForColumns(array, columns) {
+  const result = [];
+  const rows = Math.ceil(array.length / columns);
+
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < columns; c++) {
+      const idx = c * rows + r;
+      if (array[idx]) result.push(array[idx]);
+    }
+  }
+  return result;
+}
 
 function App() {
   const [daysCount, setDaysCount] = useState(0);
@@ -33,42 +47,39 @@ function App() {
 
   const allModulesVisited = modules.every(mod => visitedModulesToday.includes(mod.id));
 
+  // Перестраиваем массив для колонок сверху вниз
+  const modulesColumnWise = reorderForColumns(modules, 4);
+
   return (
     <div className="container">
-        <strong style={{ fontFamily: 'HarryP, sans-serif', fontSize: '48px' }}>
-  OASIS
-</strong>
+      <strong style={{ fontFamily: 'HarryP, sans-serif', fontSize: '48px' }}>
+        OASIS
+      </strong>
 
+      <br /><br />
 
+      <div className="status">
+        {allModulesVisited && (
+          <p>{daysCount} days</p>
+        )}
 
+        <div className="module-list">
+          {modulesColumnWise.map((mod) => {
+            const isVisited = visitedModulesToday.includes(mod.id);
 
-        <br></br>
-        <br></br>
-        <div className="status">
-          {allModulesVisited && (
-            <p>{daysCount} days</p>
-          )}
-
-      <div className="module-list">
-        {modules.map((mod) => {
-          const isVisited = visitedModulesToday.includes(mod.id);
-
-          return (
-            <button
-              key={mod.id}
-              className={`module-button ${isVisited ? "visited" : ""}`}
-              onClick={() => handleModuleClick(mod.url, mod.id)}
-            >
-              {mod.name}
-            </button>
-            
-          );
-        })}
+            return (
+              <button
+                key={mod.id}
+                className={`module-button ${isVisited ? "visited" : ""}`}
+                onClick={() => handleModuleClick(mod.url, mod.id)}
+              >
+                {mod.name}
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      
-
-      </div>
       <BackupControls />
 
       {/* <div>
@@ -77,7 +88,7 @@ function App() {
           onClick={() => {
             clearVisitedDays();
             setDaysCount(0);
-            localStorage.removeItem("todayModuleVisits"); // сброс и для модулей
+            localStorage.removeItem("todayModuleVisits");
             setVisitedModulesToday([]);
           }}
         >
@@ -89,94 +100,3 @@ function App() {
 }
 
 export default App;
-
-
-// ПОПЫТКА АВТОРИЗАЦИИ
-// import "./styles.css";
-// import React, { useState, useEffect } from "react";
-// import { supabase } from "./supabaseClient";
-// import Auth from "./Auth"; // подключаем форму
-// import { modules } from "./modules";
-// import {
-//   markTodayVisited,
-//   getDaysCount,
-//   getVisitedDays,
-//   clearVisitedDays,
-//   getTodayVisitedModules,
-//   markModuleVisitedToday
-// } from "./storage";
-
-// function App() {
-//   const [user, setUser] = useState(null);
-//   const [daysCount, setDaysCount] = useState(0);
-//   const [visitedModulesToday, setVisitedModulesToday] = useState([]);
-
-//   // Проверка авторизации при загрузке
-//   useEffect(() => {
-//     const getUser = async () => {
-//       const { data, error } = await supabase.auth.getUser();
-//       if (data?.user) setUser(data.user);
-//     };
-//     getUser();
-//   }, []);
-//   useEffect(() => {
-//     const visited = getVisitedDays();
-//     setDaysCount(visited.length);
-//     setVisitedModulesToday(getTodayVisitedModules());
-//   }, []);
-
-//   // Если не вошёл — показываем форму
-//   if (!user) return <Auth onLogin={setUser} />;
-
-
-//   const handleModuleClick = (url, moduleId) => {
-//     markTodayVisited();
-//     markModuleVisitedToday(moduleId);
-//     setDaysCount(getDaysCount());
-//     setVisitedModulesToday(getTodayVisitedModules());
-//     window.open(url, "_blank");
-//   };
-
-//   const allModulesVisited = modules.every(mod => visitedModulesToday.includes(mod.id));
-
-//   return (
-//     <div className="container">
-//       <div className="status">
-//         {allModulesVisited && (
-//           <p>📅 Ты занимаешься уже {daysCount} {daysCount === 1 ? "день" : "дней"}</p>
-//         )}
-
-//         <div className="module-list">
-//           {modules.map((mod) => {
-//             const isVisited = visitedModulesToday.includes(mod.id);
-
-//             return (
-//               <button
-//                 key={mod.id}
-//                 className={`module-button ${isVisited ? "visited" : ""}`}
-//                 onClick={() => handleModuleClick(mod.url, mod.id)}
-//               >
-//                 {mod.name}
-//               </button>
-//             );
-//           })}
-//         </div>
-//       </div>
-//       <div>
-//         <button
-//           className="reset"
-//           onClick={() => {
-//             clearVisitedDays();
-//             setDaysCount(0);
-//             localStorage.removeItem("todayModuleVisits");
-//             setVisitedModulesToday([]);
-//           }}
-//         >
-//           Сбросить статистику
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;

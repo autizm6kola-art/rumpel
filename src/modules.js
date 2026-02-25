@@ -15,7 +15,7 @@ export const modules = [
   { id: 17, name: "Приседание", url: "https://autizm6kola-art.github.io/sport_prised" },
   { id: 8, name: "Истории", url: "https://autizm6kola-art.github.io/istorii/" },
   { id: 14, name: "365", url: "https://autizm6kola-art.github.io/z365" },
-  { id: 12, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
+  { id: 12, name: "Хоббит", url: "https://autizm6kola-art.github.io/hobbit2/" },
   { id: 9, name: "Почему?", url: "https://autizm6kola-art.github.io/istorii_pochemu/" },
   { id: 11, name: "О чём думает?", url: "https://autizm6kola-art.github.io/chto_dumaet/" },
   { id: 19, name: "Планка", url: "https://autizm6kola-art.github.io/sport_planka/" },
@@ -29,7 +29,7 @@ export const modules = [
   
   
   // ДОПОЛНЕНИЕ на будущее
-  // { id: 21, name: "Хоббит", url: "https://autizm6kola-art.github.io/hobbit2" },
+ 
   
   
   
@@ -42,6 +42,7 @@ export const modules = [
   // { id: 17, name: "Рисование", url: "https://autizm6kola-art.github.io/risunki" },
   // { id: 5, name: "Урфин", url: "https://autizm6kola-art.github.io/urfinTRI/" },
   // { id: 2, name: "Гудвин", url: "https://autizm6kola-art.github.io/gudvin/" },
+  // { id: 12, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
   
 
 

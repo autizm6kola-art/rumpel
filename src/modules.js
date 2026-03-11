@@ -9,7 +9,7 @@ export const modules = [
   { id: 8, name: "Словарь", url: "https://autizm6kola-art.github.io/opredelenie" },
   { id: 9, name: "Груффало", url: "https://autizm6kola-art.github.io/cht_gruffalo" },
   { id: 10, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
-  { id: 11, name: "Бармалей", url: "https://autizm6kola-art.github.io/barmaley2" },
+  { id: 11, name: "Дочурка Груф", url: "https://autizm6kola-art.github.io/gruffalo_doch" },
   { id: 12, name: "Приседание", url: "https://autizm6kola-art.github.io/sport_prised" },
   { id: 13, name: "365", url: "https://autizm6kola-art.github.io/z365" },
   { id: 14, name: "Хоббит", url: "https://autizm6kola-art.github.io/hobbit2/" },
@@ -41,7 +41,7 @@ export const modules = [
   // { id: 5, name: "Урфин", url: "https://autizm6kola-art.github.io/urfinTRI/" },
   // { id: 2, name: "Гудвин", url: "https://autizm6kola-art.github.io/gudvin/" },
   // { id: 12, name: "Панда", url: "https://autizm6kola-art.github.io/cht_panda/" },
-  
+  // { id: 11, name: "Бармалей", url: "https://autizm6kola-art.github.io/barmaley2" },
 
 
 

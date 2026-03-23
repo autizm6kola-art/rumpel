@@ -17,9 +17,17 @@ body {
   text-align: center;
 }
 
+/* .module-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1px));
+  gap: 15px;
+  margin-bottom: 20px;
+} */
+
 .module-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+  grid-auto-flow: row; /* по строкам */
   gap: 15px;
   margin-bottom: 20px;
 }

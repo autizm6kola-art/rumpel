@@ -1,5 +1,5 @@
 export const modules = [
-  { id: 11, name: "Дрессировка", url: "https://autizm6kola-art.github.io/p_igra" },
+  { id: 11, name: "Зарядка", url: "https://autizm6kola-art.github.io/kartoshka2" },
   { id: 21, name: "Спорт", url: "https://autizm6kola-art.github.io/box" },
   { id: 31, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
   { id: 41, name: "365", url: "https://autizm6kola-art.github.io/z365" },
@@ -22,6 +22,7 @@ export const modules = [
 
 
 
+// { id: 11, name: "Дрессировка", url: "https://autizm6kola-art.github.io/p_igra" },
 // { id: 3, name: "Айболит", url: "https://autizm6kola-art.github.io/cht_aybolit" },
 // { id: 6, name: "Лис и пёс", url: "https://autizm6kola-art.github.io/lis_i_pes" },
 // { id: 9, name: "Груффало", url: "https://autizm6kola-art.github.io/cht_gruffalo" },
@@ -32,7 +33,6 @@ export const modules = [
 // { id: 9, name: "Место", url: "https://autizm6kola-art.github.io/p_mesto" },
 // { id: 10, name: "Планка", url: "https://autizm6kola-art.github.io/sport_planka/" },
 // { id: 14, name: "Кольца", url: "https://autizm6kola-art.github.io/sport_kolca" },
-// { id: 22, name: "Картошка", url: "https://autizm6kola-art.github.io/kartoshka2" },
 // { id: 4, name: "Как зовут?", url: "https://autizm6kola-art.github.io/istorii_imya/" },
 // { id: 8, name: "Какой?", url: "https://autizm6kola-art.github.io/kakoy/" },
 // { id: 12, name: "Почему?", url: "https://autizm6kola-art.github.io/istorii_pochemu/" },

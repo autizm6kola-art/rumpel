@@ -1,14 +1,17 @@
 export const modules = [
-  { id: 11, name: "Зарядка", url: "https://autizm6kola-art.github.io/kartoshka2" },
-  { id: 21, name: "Спорт", url: "https://autizm6kola-art.github.io/box" },
+  // { id: 11, name: "Зарядка", url: "https://autizm6kola-art.github.io/kartoshka2" },
   { id: 31, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
-  { id: 41, name: "365", url: "https://autizm6kola-art.github.io/z365" },
+  { id: 21, name: "Спорт", url: "https://autizm6kola-art.github.io/box" },
   { id: 51, name: "Словарь", url: "https://autizm6kola-art.github.io/opredelenie" },
-  { id: 61, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
+  { id: 41, name: "365", url: "https://autizm6kola-art.github.io/z365" },
   { id: 71, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
-  { id: 81, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
+  { id: 61, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
   { id: 91, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
+  { id: 81, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
   { id: 101, name: "ГАРРИ", url: "https://autizm6kola-art.github.io/garry_p" },
+  // { id: 6, name: "Лис и пёс", url: "https://autizm6kola-art.github.io/lis_i_pes" },
+  // { id: 15, name: "Хоббит", url: "https://autizm6kola-art.github.io/hobbit2/" }
+
 ];
 
 
@@ -24,10 +27,8 @@ export const modules = [
 
 // { id: 11, name: "Дрессировка", url: "https://autizm6kola-art.github.io/p_igra" },
 // { id: 3, name: "Айболит", url: "https://autizm6kola-art.github.io/cht_aybolit" },
-// { id: 6, name: "Лис и пёс", url: "https://autizm6kola-art.github.io/lis_i_pes" },
 // { id: 9, name: "Груффало", url: "https://autizm6kola-art.github.io/cht_gruffalo" },
 // { id: 12, name: "Дочурка Груф", url: "https://autizm6kola-art.github.io/gruffalo_doch" },
-// { id: 15, name: "Хоббит", url: "https://autizm6kola-art.github.io/hobbit2/" }
 // { id: 1, name: "Сидеть", url: "https://autizm6kola-art.github.io/p_komandi1" },
 // { id: 6, name: "Приседание", url: "https://autizm6kola-art.github.io/sport_prised" },
 // { id: 9, name: "Место", url: "https://autizm6kola-art.github.io/p_mesto" },

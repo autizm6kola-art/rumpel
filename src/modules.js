@@ -1,13 +1,12 @@
 export const modules = [
   { id: 11, name: "Шрек", url: "https://autizm6kola-art.github.io/shrek1/" },
-  { id: 21, name: "Спорт", url: "https://autizm6kola-art.github.io/box" },
   { id: 31, name: "Словарь", url: "https://autizm6kola-art.github.io/opredelenie" },
+  { id: 91, name: "Панда", url: "https://autizm6kola-art.github.io/d_panda" },
   { id: 41, name: "365", url: "https://autizm6kola-art.github.io/z365" },
   { id: 51, name: "Задачи 1", url: "https://autizm6kola-art.github.io/zadachi1/" },
-  { id: 61, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
-  { id: 71, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
   { id: 81, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
-  { id: 91, name: "Панда", url: "https://autizm6kola-art.github.io/d_panda" },
+  { id: 71, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
+  { id: 21, name: "Спорт", url: "https://autizm6kola-art.github.io/box" },
   { id: 101, name: "ГАРРИ", url: "https://autizm6kola-art.github.io/garry_p" },
   
 ];
@@ -22,6 +21,7 @@ export const modules = [
 
 
 
+// { id: 61, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
 
 // { id: 11, name: "Зарядка", url: "https://autizm6kola-art.github.io/kartoshka2" },
 // { id: 6, name: "Лис и пёс", url: "https://autizm6kola-art.github.io/lis_i_pes" },

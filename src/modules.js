@@ -7,7 +7,8 @@ export const modules = [
   { id: 81, name: "Коралина", url: "https://autizm6kola-art.github.io/coralina2" },
   { id: 71, name: "Задачи 2", url: "https://autizm6kola-art.github.io/math_1/" },
   { id: 21, name: "Спорт", url: "https://autizm6kola-art.github.io/box" },
-  { id: 101, name: "ГАРРИ", url: "https://autizm6kola-art.github.io/garry_p" },
+  { id: 61, name: "Моби Дик", url: "https://autizm6kola-art.github.io/z-pil/" },
+  { id: 101, name: "ГАРРИ", url: "https://autizm6kola-art.github.io/garry_p" }
   
 ];
 
@@ -21,7 +22,6 @@ export const modules = [
 
 
 
-// { id: 61, name: "ШРЕК", url: "https://autizm6kola-art.github.io/z-pil/" },
 
 // { id: 11, name: "Зарядка", url: "https://autizm6kola-art.github.io/kartoshka2" },
 // { id: 6, name: "Лис и пёс", url: "https://autizm6kola-art.github.io/lis_i_pes" },
